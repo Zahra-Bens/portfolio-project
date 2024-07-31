@@ -1,7 +1,25 @@
 body {
-  background-color: red;
+  background-color: white;
 }
 
 h1 {
-  color: white;
+  color: #000000;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+p {
+  font-family: "poppins", sans serif;
+}
+:root {
+  --branding-color: #f9f7fe;
+  --main-text: ;
+}
+
+.hero {
+  background-color: var(--branding-color);
+  text-align: center;
+}
+.hero p {
+  font-size: 96px;
 }
