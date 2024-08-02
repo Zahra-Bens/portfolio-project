@@ -84,6 +84,22 @@ h2 {
 .project-description {
   padding: 120px 60px;
 }
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 85px;
+}
+.about-section p {
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+.about-section-content {
+  margin-right: 50px;
+}
 @media (max-width: 960px) {
   .proejct-description {
     padding: 0;
@@ -106,5 +122,13 @@ h2 {
   }
   .project-paragraph {
     text-align: center;
+  }
+  .about-section-content {
+    text-align: center !important;
+    margin-right: 0;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
