@@ -101,7 +101,7 @@ h2 {
   font-size: 24px;
   font-weight: 700;
   line-height: 36px;
-  text-align: center;
+
   margin: 50px 0;
   padding: 0;
 }
@@ -116,7 +116,6 @@ h2 {
   height: 683px;
   padding: 0;
   margin: 0;
-  display: grid;
 }
 nav {
   padding: 20px 0;
