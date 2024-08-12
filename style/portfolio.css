@@ -100,18 +100,24 @@ h3 {
   font-family: var(--default-font-family);
   font-size: 24px;
   line-height: 1.5;
-  margin: 0 50px;
 }
-.content p {
-  font-size: 14px;
-
-  line-height: 30px;
+.contact-item {
+  text-align: left;
+  margin-left: 0px;
 }
 .content img {
   width: 512px;
   height: 683px;
   padding: 0;
   margin: 0;
+}
+
+.content p {
+  font-size: 14px;
+
+  line-height: 30px;
+  text-align: left;
+  margin-left: 0px;
 }
 nav {
   padding: 20px 0;
