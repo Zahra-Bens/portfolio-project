@@ -167,6 +167,27 @@ footer .contact-box {
 footer .contact-box a {
   margin: 15px 0;
 }
+footer .source p {
+  font-size: 15px;
+  margin: 15px 0;
+  font-weight: 700;
+  text-decoration: none;
+}
+footer .source a {
+  margin: 15px 0;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000000;
+  background-color: var(--secondary-color);
+  padding: 5px;
+  border-radius: 5px;
+}
+footer .source a:hover {
+  margin: 15px 0;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--branding-color);
+}
 footer .contact-box p {
   margin: 0;
 }
@@ -179,6 +200,7 @@ footer .email-link {
   color: #000000;
   font-size: 24px;
   padding: 10px 14px;
+  font-weight: 700;
 }
 footer .email-link:hover {
   text-decoration: none;

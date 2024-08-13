@@ -39,12 +39,25 @@
   </head>
   <div class="container">
     <nav class="d-flex justify-content-between">
-      <img src="/image/zblogo.png" class="img-fluid logo" alt="logo" />
+      <a href="/" title="Homepage">
+        <img
+          src="/image/zblogo.png"
+          class="logo d-none d-md-block"
+          alt="Zahra logo"
+        />
+        <img
+          src="/image/zblogo.png"
+          class="logo d-block d-md-none"
+          alt="Zahra logo"
+        />
+      </a>
       <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about.html">About</a></li>
-        <li><a href="/work.html">Work</a></li>
-        <li class="active"><a href="/contact.html">Contact</a></li>
+        <li><a href="/" title="Homepage">Home</a></li>
+        <li><a href="/about.html" title="About Zahra">About</a></li>
+        <li><a href="/work.html" title="Zahra's Work">Work</a></li>
+        <li class="active">
+          <a href="/contact.html" title="Contact Zahra">Contact</a>
+        </li>
       </ul>
     </nav>
   </div>
@@ -74,6 +87,57 @@
           </p>
         </div>
       </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let’s work together :)</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding"
+              title="contact Zahra"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:zahra.bensaidane@gmail.com"
+            class="email-link"
+            title="email Zahra"
+            >zahra.bensaidane@gmail.com</a
+          >
+        </div>
+        <div class="social-links text-center">
+          <a
+            href="https://www.instagram.com/bzaadesign/"
+            title="Instgram profile"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://github.com/Zahra-Bens"
+            ><i class="fab fa-github" title="Github profile"></i
+          ></a>
+          <a href="https://www.pinterest.ca/ZahraBDesign/">
+            <i class="fab fa-pinterest" title="Pinterest profile"></i
+          ></a>
+        </div>
+        <div class="source">
+          <p class="text-center mt-5">
+            This project was codedby Zahra Bensaidane, and it is
+            <a
+              href="https://github.com/Zahra-Bens/portfolio-project"
+              target="_blank"
+              title="Zahra's code"
+              >open-sourced</a
+            >
+            on Github
+          </p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
