@@ -39,12 +39,25 @@
   </head>
   <div class="container">
     <nav class="d-flex justify-content-between">
-      <img src="/image/zblogo.png" class="img-fluid logo" alt="logo" />
+      <a href="/" title="Homepage">
+        <img
+          src="/image/zblogo.png"
+          class="logo d-none d-md-block"
+          alt="Zahra logo"
+        />
+        <img
+          src="/image/zblogo.png"
+          class="logo d-block d-md-none"
+          alt="Zahra logo"
+        />
+      </a>
       <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about.html">About</a></li>
-        <li class="active"><a href="/work.html">Work</a></li>
-        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/" title="Homepage">Home</a></li>
+        <li><a href="/about.html" title="About Zahra">About</a></li>
+        <li class="active">
+          <a href="/work.html" title="Zahra's Work">Work</a>
+        </li>
+        <li><a href="/contact.html" title="Contact Zahra">Contact</a></li>
       </ul>
     </nav>
   </div>
