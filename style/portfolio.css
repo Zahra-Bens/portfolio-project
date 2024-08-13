@@ -1,6 +1,6 @@
 :root {
   --branding-color: #ec6e4c;
-  --secondary-color: #fefaf4;
+  --secondary-color: #fff1e6;
   --default-font-family: "poppins", sans-serif;
   --heading-font-family: "Playfair Display", serif;
 }
@@ -36,6 +36,10 @@ h3 {
   font-weight: 700;
   font-size: 64px;
   line-height: 85px;
+}
+h4 {
+  font-size: 48px;
+  text-align: left;
 }
 .hero {
   background-color: var(--secondary-color);
@@ -150,6 +154,50 @@ nav a:hover {
 .content {
   margin: 30px;
 }
+footer {
+  margin: 60px 0;
+  text-align: center;
+}
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 42px 120px;
+  border-radius: 20px;
+  margin-bottom: 60px;
+}
+footer .contact-box a {
+  margin: 15px 0;
+}
+footer .contact-box p {
+  margin: 0;
+}
+footer .contact-box p {
+  text-align: left;
+}
+footer .email-link {
+  text-decoration: none;
+  text-align: center;
+  color: #000000;
+  font-size: 24px;
+  padding: 10px 14px;
+}
+footer .email-link:hover {
+  text-decoration: none;
+  text-align: center;
+  color: var(--branding-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+
+  border-radius: 50%;
+  font-size: 18px;
+}
+footer .social-links a:hover {
+  color: var(--secondary-color);
+  background-color: var(--branding-color);
+}
 @media (max-width: 960px) {
   .project-description {
     padding: 60px 30px;
@@ -175,7 +223,7 @@ nav a:hover {
   .project-paragraph {
     text-align: center;
   }
-  .content {
+  .content p {
     text-align: center;
     margin-right: 0;
   }
@@ -187,6 +235,15 @@ nav a:hover {
     text-align: center;
     margin: auto 0%;
     padding: 10px;
+  }
+  .content-container img {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  footer .email-link {
+    font-size: 20px;
+    padding: 10px 14px;
   }
   .btn-discover {
     display: block;
